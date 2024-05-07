@@ -18,9 +18,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/oam-dev/kubevela-core-api/pkg/generated/client/clientset/versioned"
-	corev1beta1 "github.com/oam-dev/kubevela-core-api/pkg/generated/client/clientset/versioned/typed/core.oam.dev/v1beta1"
-	fakecorev1beta1 "github.com/oam-dev/kubevela-core-api/pkg/generated/client/clientset/versioned/typed/core.oam.dev/v1beta1/fake"
+	clientset "github.com/kuberly/kubevela-core-api/pkg/generated/client/clientset/versioned"
+	corev1beta1 "github.com/kuberly/kubevela-core-api/pkg/generated/client/clientset/versioned/typed/core.oam.dev/v1beta1"
+	fakecorev1beta1 "github.com/kuberly/kubevela-core-api/pkg/generated/client/clientset/versioned/typed/core.oam.dev/v1beta1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

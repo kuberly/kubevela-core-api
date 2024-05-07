@@ -23,8 +23,8 @@ import (
 	workflowv1alpha1 "github.com/kubevela/workflow/api/v1alpha1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/common"
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/v1alpha1"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/common"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/v1alpha1"
 )
 
 // NOTE: json tags are required.  Any new fields you add must have json tags for the fields to be serialized.

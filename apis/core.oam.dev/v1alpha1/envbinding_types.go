@@ -19,7 +19,7 @@ package v1alpha1
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/common"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/common"
 )
 
 const (

@@ -33,12 +33,12 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/common"
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/condition"
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/v1beta1"
-	"github.com/oam-dev/kubevela-core-api/pkg/oam"
-	"github.com/oam-dev/kubevela-core-api/pkg/oam/mock"
-	"github.com/oam-dev/kubevela-core-api/pkg/oam/util"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/common"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/condition"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/v1beta1"
+	"github.com/kuberly/kubevela-core-api/pkg/oam"
+	"github.com/kuberly/kubevela-core-api/pkg/oam/mock"
+	"github.com/kuberly/kubevela-core-api/pkg/oam/util"
 )
 
 func TestUnstructured(t *testing.T) {

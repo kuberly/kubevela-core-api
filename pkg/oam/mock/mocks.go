@@ -29,7 +29,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/condition"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/condition"
 )
 
 // Conditioned is a mock that implements Conditioned interface.

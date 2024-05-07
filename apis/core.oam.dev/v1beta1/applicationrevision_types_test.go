@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/common"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/common"
 )
 
 func TestApplicationRevisionCompression(t *testing.T) {

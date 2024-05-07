@@ -20,8 +20,8 @@ package core_oam_dev
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/v1alpha1"
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/v1beta1"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/v1alpha1"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/v1beta1"
 )
 
 func init() {

@@ -31,10 +31,10 @@ import (
 
 	"github.com/kubevela/pkg/util/compression"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/common"
-	velatypes "github.com/oam-dev/kubevela-core-api/apis/types"
-	"github.com/oam-dev/kubevela-core-api/pkg/oam"
-	velaerr "github.com/oam-dev/kubevela-core-api/pkg/utils/errors"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/common"
+	velatypes "github.com/kuberly/kubevela-core-api/apis/types"
+	"github.com/kuberly/kubevela-core-api/pkg/oam"
+	velaerr "github.com/kuberly/kubevela-core-api/pkg/utils/errors"
 )
 
 // +kubebuilder:object:root=true

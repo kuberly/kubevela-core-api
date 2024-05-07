@@ -23,7 +23,7 @@ import (
 	k8sscheme "k8s.io/client-go/kubernetes/scheme"
 	"sigs.k8s.io/controller-runtime/pkg/scheme"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/common"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/common"
 )
 
 // Package type metadata.

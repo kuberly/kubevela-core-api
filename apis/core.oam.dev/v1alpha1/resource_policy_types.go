@@ -21,7 +21,7 @@ import (
 	"k8s.io/utils/pointer"
 	stringslices "k8s.io/utils/strings/slices"
 
-	"github.com/oam-dev/kubevela-core-api/pkg/oam"
+	"github.com/kuberly/kubevela-core-api/pkg/oam"
 )
 
 // ResourcePolicyRuleSelector select the targets of the rule

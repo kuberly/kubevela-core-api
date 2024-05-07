@@ -20,7 +20,7 @@ package oam
 import (
 	"context"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/condition"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/condition"
 
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

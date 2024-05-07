@@ -28,8 +28,8 @@ import (
 
 	workflowv1alpha1 "github.com/kubevela/workflow/api/v1alpha1"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/condition"
-	"github.com/oam-dev/kubevela-core-api/pkg/oam"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/condition"
+	"github.com/kuberly/kubevela-core-api/pkg/oam"
 )
 
 // ParameterValueType refers to a data type of parameter

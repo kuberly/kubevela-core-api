@@ -16,7 +16,7 @@ limitations under the License.
 
 package types
 
-import "github.com/oam-dev/kubevela-core-api/pkg/oam"
+import "github.com/kuberly/kubevela-core-api/pkg/oam"
 
 const (
 	// KubeVelaName name of kubevela

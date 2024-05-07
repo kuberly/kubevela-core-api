@@ -20,8 +20,8 @@ package v1beta1
 import (
 	"net/http"
 
-	v1beta1 "github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/v1beta1"
-	"github.com/oam-dev/kubevela-core-api/pkg/generated/client/clientset/versioned/scheme"
+	v1beta1 "github.com/kuberly/kubevela-core-api/apis/core.oam.dev/v1beta1"
+	"github.com/kuberly/kubevela-core-api/pkg/generated/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

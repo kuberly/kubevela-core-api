@@ -33,9 +33,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/utils/pointer"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/common"
-	"github.com/oam-dev/kubevela-core-api/pkg/oam"
-	"github.com/oam-dev/kubevela-core-api/pkg/utils/errors"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/common"
+	"github.com/kuberly/kubevela-core-api/pkg/oam"
+	"github.com/kuberly/kubevela-core-api/pkg/utils/errors"
 )
 
 func TestManagedResource_DeepCopyEqual(t *testing.T) {

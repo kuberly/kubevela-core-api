@@ -18,8 +18,8 @@ limitations under the License.
 package core
 
 import (
-	v1beta1 "github.com/oam-dev/kubevela-core-api/pkg/generated/client/informers/externalversions/core.oam.dev/v1beta1"
-	internalinterfaces "github.com/oam-dev/kubevela-core-api/pkg/generated/client/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/kuberly/kubevela-core-api/pkg/generated/client/informers/externalversions/core.oam.dev/v1beta1"
+	internalinterfaces "github.com/kuberly/kubevela-core-api/pkg/generated/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

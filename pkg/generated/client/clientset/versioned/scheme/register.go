@@ -18,7 +18,7 @@ limitations under the License.
 package scheme
 
 import (
-	corev1beta1 "github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/v1beta1"
+	corev1beta1 "github.com/kuberly/kubevela-core-api/apis/core.oam.dev/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

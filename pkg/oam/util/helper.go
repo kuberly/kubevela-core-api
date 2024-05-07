@@ -39,11 +39,11 @@ import (
 	"k8s.io/apimachinery/pkg/util/validation"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/common"
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/condition"
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/v1beta1"
-	types2 "github.com/oam-dev/kubevela-core-api/apis/types"
-	"github.com/oam-dev/kubevela-core-api/pkg/oam"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/common"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/condition"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/v1beta1"
+	types2 "github.com/kuberly/kubevela-core-api/apis/types"
+	"github.com/kuberly/kubevela-core-api/pkg/oam"
 )
 
 const (

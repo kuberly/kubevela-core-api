@@ -26,7 +26,7 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/v1beta1"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/v1beta1"
 )
 
 // JSONMarshal returns the JSON encoding

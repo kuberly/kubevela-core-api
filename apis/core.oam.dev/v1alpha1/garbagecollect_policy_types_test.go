@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"github.com/oam-dev/kubevela-core-api/pkg/oam"
+	"github.com/kuberly/kubevela-core-api/pkg/oam"
 )
 
 func TestGarbageCollectPolicySpec_FindStrategy(t *testing.T) {

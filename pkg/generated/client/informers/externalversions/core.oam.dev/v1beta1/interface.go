@@ -18,7 +18,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	internalinterfaces "github.com/oam-dev/kubevela-core-api/pkg/generated/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/kuberly/kubevela-core-api/pkg/generated/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

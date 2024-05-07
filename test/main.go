@@ -9,10 +9,10 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	core_oam_dev "github.com/oam-dev/kubevela-core-api/apis/core.oam.dev"
-	"github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/common"
-	core_v1beta1 "github.com/oam-dev/kubevela-core-api/apis/core.oam.dev/v1beta1"
-	"github.com/oam-dev/kubevela-core-api/pkg/oam/util"
+	core_oam_dev "github.com/kuberly/kubevela-core-api/apis/core.oam.dev"
+	"github.com/kuberly/kubevela-core-api/apis/core.oam.dev/common"
+	core_v1beta1 "github.com/kuberly/kubevela-core-api/apis/core.oam.dev/v1beta1"
+	"github.com/kuberly/kubevela-core-api/pkg/oam/util"
 )
 
 var scheme = runtime.NewScheme()
